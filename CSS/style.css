@@ -27,6 +27,9 @@
     --Helvetica-Medium-font: 'Helvetica-Medium';
     --Helvetica-Light-font: 'Helvetica-Light';
     --main-color: #1dbf73;
+    --black-color: black;
+    --semi-black-color: #62646a;
+    --gray-color: #5c5c5c;
     --white-color: white;
     --pink-color: #ff62ad;
     --yellow-color: #ffbe5b;
@@ -36,3 +39,99 @@
     --ligjt-blue-color: #4a73e8;
     --marun-color: #45091b;
 }
+ul{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+/* header1 start*/
+.header1{
+    min-height: 9vh;
+    display: grid;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    width: 100%;
+    transition: .3s all ease-in-out;
+}
+.header1 .stage-1{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.header1 .stage-1 .left-side {
+    width: 35%;
+    /* border: 1px solid; */
+}
+.header1 .stage-1 .left-side ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header1 .stage-1 .left-side ul li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+.header1 .stage-1 .left-side ul li a{
+    font-size: 5vh;
+    font-weight: 700;
+    color: var(--black-color);
+}
+.header1 .stage-1 .left-side ul li a.menu-bars-btn{
+    font-size: 3.5vh !important;
+    padding: 5px;
+    display: none;
+}
+.header1 .stage-1 .left-side ul li a.logo{
+    padding: 5px 4vh;
+}
+.header1 .stage-1 .left-side ul li a.logo span{
+    color: var(--main-color);
+}
+
+
+.header1 .stage-1 .right-side ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.header1 .stage-1 .right-side ul li{
+    padding: 5px 15px;
+}
+.header1 .stage-1 .right-side ul li a{
+    font-size: 2.65vh;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    color: var(--semi-black-color);
+}
+.header1 .stage-1 .right-side ul li a:hover{
+    color: var(--main-color);
+}
+.header1 .stage-1 .right-side ul li a.join{
+    color: var(--main-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 2.55vh;
+    transition: 0.2s ease-in-out;
+    border: 1px solid var(--main-color);
+}
+.header1 .stage-1 .right-side ul li a.join:hover{
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
