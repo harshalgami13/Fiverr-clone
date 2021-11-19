@@ -1,0 +1,38 @@
+/*Macan*/
+@font-face{
+    font-family: "Macan";
+    src: url("../Asstes/Font/Macan.ttf");
+}
+
+/*Domain-Display*/
+@font-face{
+    font-family: "DomaineDisplay";
+    src: url("../Asstes/Font/DomaineDisplayBold.ttf");
+}
+
+/*Helvetica Medium and Light*/
+@font-face{
+    font-family: "Helvetica-Medium";
+    src: url("../Asstes/Font/Helvetica-Neue-Medium.ttf");
+}
+@font-face{
+    font-family: "Helvetica-Light";
+    src: url("../Asstes/Font/Helvetica-Neue-UltraLight.ttf");
+}
+
+
+:root{
+    --Macan-font: 'Macan';
+    --DomaineDisplay-font: 'DomaineDisplay';
+    --Helvetica-Medium-font: 'Helvetica-Medium';
+    --Helvetica-Light-font: 'Helvetica-Light';
+    --main-color: #1dbf73;
+    --white-color: white;
+    --pink-color: #ff62ad;
+    --yellow-color: #ffbe5b;
+    --light-back-color: #f1fdf7;
+    --dark-blue-color: #0d084d;
+    --blue-color: #584aff;
+    --ligjt-blue-color: #4a73e8;
+    --marun-color: #45091b;
+}
