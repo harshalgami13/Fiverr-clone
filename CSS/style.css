@@ -305,11 +305,47 @@ a{
     font-size: 2.95vh;
 }
 
-
-
-
-
-
+/*section6*/
+.section6{
+    padding: 15vh 0;
+}
+.section6 .title{
+    font-size: 5vh;
+    padding: 5px 0;
+    margin-bottom: 7vh;
+    font-family: var(--Helvetica-Medium-font);
+}
+.section6 .box{
+    margin: 15px auto;
+    padding: 15px;
+    /* border: 1px solid; */
+}
+.section6 .box .img img{
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.section6 .box .hr hr{
+    width: 70px;
+    transition: 0.2s ease-in-out;
+    margin: 1rem auto;
+    background-color: var(--gray-color);
+    min-height: 2px;
+    opacity: 0.7;
+}
+.section6 .box:hover .hr hr{
+    opacity: 1;
+    background-color: var(--main-color);
+    width: 100px;
+}
+.section6 .box .text{
+    font-size: 2.65vh;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #414141;
+}
 
 
 @media (max-width : 800px) {
