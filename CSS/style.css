@@ -66,7 +66,7 @@ a{
     background-color: var(--white-color);
     position: fixed;
 }
-/*header1 stage-1*/
+/*header1 stage-1 start*/
 .header1 .stage-1{
     height: 12vh;
     display: flex;
@@ -158,7 +158,7 @@ a{
     border-color: var(--main-color);
 }
 
-/*header1 stage-2*/
+/*header1 stage-2 start*/
 .header1 .stage-2{
     border-block: 0.01em solid lightgray;
     display: none;
@@ -189,7 +189,7 @@ a{
     font-weight: 500;
 }
 
-/* section1 */
+/* section1 start*/
 .section1 {
     position: relative;
 }
@@ -277,7 +277,14 @@ a{
 }
 
 
-/*section5*/
+/*section3 start*/
+
+
+/*section4 start*/
+
+
+
+/*section5 start*/
 .section5{
     padding: 15vh 0;
     background-color: var(--light-back-color);
@@ -305,7 +312,7 @@ a{
     font-size: 2.95vh;
 }
 
-/*section6*/
+/*section6 start*/
 .section6{
     padding: 15vh 0;
 }
@@ -347,6 +354,138 @@ a{
     color: #414141;
 }
 
+/*section7 start*/
+.section7{
+    background-color: var(--dark-blue-color);
+    padding: 12vh 1vh;
+    color: var(--white-color);
+}
+.section7 .img img{
+    width: 100%;
+}
+.section7 .content-box{
+    padding: 0 10px;
+    margin: 15px 0;
+    width: 80%;
+}
+.section7 .content-box .content1{
+    display: flex;
+    align-items: center;
+}
+.section7 .content-box .content1>div{
+    font-size: 4.5vh;
+    margin: 0 5px;
+    font-weight: 700;
+}
+.section7 .content-box .content1>div span{
+    font-weight: 400;
+}
+.section7 .content-box .content1>div.new{
+    background-color: var(--light-blue-color);
+    font-size: 1.75vh;
+    padding: 2px 10px;
+    margin-top: 4px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.section7 .content-box .content2{
+    margin: 3.5vh 0;
+    font-size: 5vh;
+    font-family: var(--Helvetica-Medium-font);
+}
+.section7 .content-box .content2 span{
+    font-family: var(--DomaineDisplay-font);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.section7 .content-box .content3{
+    font-size: 3vh;
+}
+
+.section7 .content-box .content4{
+    margin: 3.5vh 0;
+    font-size: 2.8vh;
+}
+.section7 .content-box .content4 p{
+    display: flex;
+}
+.section7 .content-box .content4 p i{
+    padding: 6px 10px;
+    color: #b8babe;
+}
+
+.section7 .content-box .content5{
+    margin: 2.5vh 0;
+    padding: 0 5px;
+}
+.section7 .content-box .content5 a{
+    padding: 1.8vh 4.2vh;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 2.67vh;
+    border-radius: 3px;
+}
+
+/*section8 start*/
+
+
+/*section9 start*/
+.section9{
+    padding: 10vh 0;
+}
+.section9 .data{
+    margin: 0 1.5%;
+    padding: 15px;
+    min-height: 50vh;
+    background-size: cover !important;
+    background-position: bottom right;
+    background: url(../Asstes/Images/logo-maker-banner-wide-desktop-1352-2x.png) no-repeat;
+    background-color: var(--light-blue-color);
+}
+.section9 .data .img img{
+    width: 100%;
+}
+.section9 .content-box{
+    padding: 10px 8%;
+    color: var(--white-color);
+}
+.section9 .content-box .content1{
+    font-size: 4.5vh;
+    margin: 0 5px;
+    font-weight: 700;
+}
+.section9 .content-box .content1 span{
+    font-weight: 400;
+}
+.section9 .content-box .content2{
+    margin: 2.5vh 0;
+    line-height: 6vh;
+    font-size: 5vh;
+    font-family: var(--Helvetica-Medium-font);
+}
+.section9 .content-box .content2 span{
+    font-style: italic;
+    font-family: var(--DomaineDisplay-font);
+}
+.section9 .content-box .content3{
+    font-size: 3vh;
+}
+.section9 .content-box .content4{
+    margin: 5vh 0;
+}
+.section9 .content-box .content4 a{
+    padding: 1.8vh 4.2vh;
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    font-weight: 500;
+    font-size: 2.67vh;
+    border-radius: 3px;
+}
+
+
 
 @media (max-width : 800px) {
     .header1{
@@ -364,6 +503,13 @@ a{
     }
     .header1 .stage-1 .right-side{
         display: none;
+    }
+
+
+
+    /*section7*/
+    .section7 .content-box{
+        width: 100%;
     }
 }
 @media (max-width : 980px) {
