@@ -21,6 +21,10 @@ var swiper = new Swiper(".mySwiper", {
 
 $(document).ready(function () {
 
+    $('.main1 .cancle img').click(function () {
+        $('.main1').addClass("cancle");
+    })
+    
     //scroll
     $(window).scroll(function () {
 
