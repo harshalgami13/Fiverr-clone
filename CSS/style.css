@@ -188,6 +188,14 @@ a{
     color: var(--semi-black-color);
     font-weight: 500;
 }
+.header1 .stage-2 ul li a span.new{
+    color: var(--pink-color);
+    font-size: 1.75vh;
+    padding: 1px 7px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 1px solid var(--pink-color);
+}
 
 /* section1 start*/
 .section1 {
@@ -241,7 +249,8 @@ a{
 }
 .section1 .data .box .title1 span{
     font-style: italic;
-    font-family: var(--DomaineDisplay-font);
+    font-family: serif;
+    font-weight: 500;
 }
 
 
@@ -395,8 +404,9 @@ a{
     font-family: var(--Helvetica-Medium-font);
 }
 .section7 .content-box .content2 span{
-    font-family: var(--DomaineDisplay-font);
-    font-weight: 400;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 6vh;
     font-style: italic;
 }
 
@@ -468,7 +478,8 @@ a{
 }
 .section9 .content-box .content2 span{
     font-style: italic;
-    font-family: var(--DomaineDisplay-font);
+    font-family: serif;
+    font-size: 5.7vh;
 }
 .section9 .content-box .content3{
     font-size: 3vh;
@@ -483,6 +494,101 @@ a{
     font-weight: 500;
     font-size: 2.67vh;
     border-radius: 3px;
+}
+
+
+/*section10 start*/
+
+
+
+/*section11 start*/
+.section11{
+    padding: 5vh 2%;
+}
+.section11 .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section11 .heading .heading1{
+    margin: 2.5vh 0;
+    line-height: 6vh;
+    font-size: 5vh;
+    font-family: var(--Helvetica-Medium-font);
+}
+.section11 .heading .heading2 a{
+    font-family: 2.75vh;
+    font-weight: 500;
+    color: var(--blue-color);
+    transition: 0.24s ease-in-out;
+}
+.section11 .heading .heading2 a:hover{
+    color: var(--main-color);
+}
+.section11 .box{
+    margin: 5px 0;
+}
+.section11 .box a .img img{
+    width: 98%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.24s ease-in-out;
+}
+.section11 .box:hover a .img img{
+    opacity: 0.9;
+}
+.section11 .box a .content{
+    padding: 15px 0;
+}
+.section11 .box a .content .text1{
+    font-size: 2.90vh;
+    color: #3d3d3d;
+    font-weight: 650;
+    margin: 4px 0;
+}
+.section11 .box a .content .text2{
+    font-size: 2.78vh;
+    color: var(--semi-black-color);
+    opacity: 0.9;
+}
+
+
+/*section12 start*/
+.section12{
+    padding: 10vh 0;
+    color: var(--white-color);
+}
+.section12 .data{
+    margin: 0 1.5%;
+    padding: 7%;
+    min-height: 68vh;
+    border-radius: 5px;
+    background-size: cover !important;
+    background-position: bottom right;
+    background: url(../Asstes/Images/poster7.png) no-repeat;
+    background-color: var(--light-blue-color);
+}
+.section12 .data .content .data1{
+    margin: 2.5vh 0;
+    line-height: 8vh;
+    font-size: 6.75vh;
+    font-family: var(--Helvetica-Medium-font);
+}
+.section12 .data .content .data1 span{
+    font-family: serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.section12 .data .content .data2{
+    margin: 9vh 0;
+}
+.section12 .data .content .data2 a{
+    font-size: 2.7vh;
+    font-weight: 500;
+    color: var(--white-color);
+    padding: 1.5vh 5vh;
+    border-radius: 2px;
+    background-color: var(--main-color);
 }
 
 
@@ -504,14 +610,17 @@ a{
     .header1 .stage-1 .right-side{
         display: none;
     }
-
-
-
-    /*section7*/
+    
+    /*section7 start*/
     .section7 .content-box{
         width: 100%;
     }
+
+    .section12 .data{
+        width: 98%!important;
+    }
 }
+
 @media (max-width : 980px) {
     .header1 .stage-2{
         display: none !important;
