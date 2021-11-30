@@ -39,6 +39,7 @@
     --light-blue-color: #4a73e8;
     --marun-color: #45091b;
 }
+
 ul{
     padding: 0 !important;
     margin: 0 !important;
@@ -128,7 +129,7 @@ a{
     margin: 2vh 0;
 }
 .side-menu .side-menu-content li a{
-    font-size: 2.65vh;
+    font-size: 2.15vh;
     font-weight: 700;
     color: #474747;
     transition: .2s ease-in-out;
@@ -144,7 +145,16 @@ a{
     
 }
 
-
+/*Scroll Bar*/
+.side-menu .side-menu-content::-webkit-scrollbar {
+    width: 5px;
+    height: 1px !important;
+    background-color: var(--light-back-color);
+}
+.side-menu .side-menu-content::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 15px;
+}
 
 /* header1 start*/
 .header1{
@@ -197,13 +207,13 @@ a{
     color: var(--black-color);
 }
 .header1 .stage-1 .left-side ul li a.menu-bars-btn{
-    font-size: 3.7vh !important;
-    padding: 5px 25px;
+    font-size: 3vh !important;
+    padding: 5px 2vh;
     display: none;
 }
 .header1 .stage-1 .left-side ul li a.menu-bars-sign{
     color: var(--white-color) !important;
-    font-size: 2.7vh !important;
+    font-size: 2.15vh !important;
     border: 1px solid var(--white-color);
     padding: 0.7vh 2vh !important;
     transition: 0.2s ease-in-out;
@@ -224,7 +234,7 @@ a{
     color: var(--white-color) !important;
 }
 .header1 .stage-1 .left-side ul li a.logo{
-    padding: 5px 7vh;
+    padding: 5px 2.5vh;
 }
 .header1 .stage-1 .left-side ul li a.logo span{
     color: var(--main-color);
