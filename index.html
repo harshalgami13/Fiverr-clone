@@ -16,7 +16,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
-
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -26,8 +25,8 @@
 <body>
 
     <!-- Pop Over -->
-    <main class="main1">
-        <!-- Add class ` Cancle ` for hide content in main1 -->
+    <main class="main1 cancle">
+        <!-- Add class ` cancle ` for hide content in main1 -->
         <div class="data">
             <div class="row m-0 p-0">
                 <div class="col-12">
@@ -49,14 +48,40 @@
         </div>
     </main>
 
+
+    <!-- side-menu -->
+    <div class="side-menu offcanvas-menu">
+        <!-- Add offcanvas-menu in side-menu for see side-menu -->
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+        <div class="side-menu-content">
+            <ul>
+                <li><a>Fiverr Business</a></li>
+                <li><a>Explore</a></li>
+                <li><a><i class="fas fa-globe"></i> English</a></li>
+                <li><a><i class="fas fa-rupee-sign"></i> INR</a></li>
+                <li><a>Become a Seller</a></li>
+                <li><a>Graphics & Design</a></li>
+                <li><a>Digital Marketing</a></li>
+                <li><a>Writing & Translation</a></li>
+                <li><a>Video & Animation</a></li>
+                <li><a>Music & Audio</a></li>
+                <li><a>Programming & Tech</a></li>
+                <li><a>Data <span class="new">NEW</span></a></li>
+                <li><a>Business</a></li>
+                <li><a>Lifestyle</a></li>
+            </ul>
+        </div>
+    </div>
+
     <!-- header1 start -->
     <header class="header1">
         <div class="stage-1">
             <div class="left-side">
                 <ul>
                     <li>
-                        <a class="menu-bars-btn"><i class="fas fa-bars"></i></a>
+                        <a class="menu-bars-btn"><i class="fas fa-bars head-btn"></i></a>
                         <a class="logo" href="">fiverr<span>.</span></a>
+                        <a class="menu-bars-btn menu-bars-sign" href="">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -98,13 +123,14 @@
             </div>
         </div>
         <div class="background">
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper mySwiper1">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="./Asstes/Images/poster1.png" alt=""></div>
-                    <div class="swiper-slide"><img src="./Asstes/Images/poster2.png" alt=""></div>
-                    <div class="swiper-slide"><img src="./Asstes/Images/poster3.png" alt=""></div>
-                    <div class="swiper-slide"><img src="./Asstes/Images/poster4.png" alt=""></div>
-                    <div class="swiper-slide"><img src="./Asstes/Images/poster5.png" alt=""></div>
+                    <div class="swiper-slide mobile"><img src="./Asstes/Images/PosterMain.png" alt=""></div>
+                    <div class="swiper-slide hide"><img src="./Asstes/Images/poster1.png" alt=""></div>
+                    <div class="swiper-slide hide"><img src="./Asstes/Images/poster2.png" alt=""></div>
+                    <div class="swiper-slide hide"><img src="./Asstes/Images/poster3.png" alt=""></div>
+                    <div class="swiper-slide hide"><img src="./Asstes/Images/poster4.png" alt=""></div>
+                    <div class="swiper-slide hide"><img src="./Asstes/Images/poster5.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -125,12 +151,108 @@
     </section>
 
     <!-- section3 start -->
-
-
-    <!-- section4 start -->
-
-
-
+    <section class="section3">
+        <div class="container-fluid">
+            <div class="title">Popular professional services</div>
+            <div class="swiper mySwiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story1.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story2.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story3.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story4.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story5.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story6.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story7.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story8.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story9.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="./Asstes/Images/Story10.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+    </section>
 
     <!-- section5 start -->
     <section class="section5">
@@ -317,9 +439,6 @@
         </div>
     </section>
 
-    <!-- section8 start -->
-
-
     <!-- section9 start -->
     <section class="section9">
         <div class="container-fluid">
@@ -343,10 +462,6 @@
             </div>
         </div>
     </section>
-
-
-    <!-- section10 start -->
-
 
 
     <!-- section11 start -->
